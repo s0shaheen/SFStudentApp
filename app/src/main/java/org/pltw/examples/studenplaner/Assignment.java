@@ -24,4 +24,26 @@ public Assignment(int hours, int minutes, String name, int month, int day, Strin
     this.type = type;
 }
 
+    public int getHours() {
+        return hours;
+    }
+
+    public int getMinutes() {
+        return minutes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public String getType() {
+        return type;
+    }
+    public int getDay() {
+        return day;
+    }
 }
