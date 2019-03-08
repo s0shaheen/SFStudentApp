@@ -1,4 +1,6 @@
 package org.pltw.examples.studenplaner;
 
-class Pop {
+import android.support.v7.app.AppCompatActivity;
+
+public class Pop extends AppCompatActivity {
 }
