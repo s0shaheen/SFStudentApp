@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         mCreateName.setVisibility(View.VISIBLE);
         mCreateMonth.setVisibility(View.VISIBLE);
         mCreateDay.setVisibility(View.VISIBLE);
+        close.setVisibility(View.VISIBLE);
     }
     public void onClickClose(View v){
         aView.setVisibility(View.INVISIBLE);
@@ -82,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
         mCreateName.setVisibility(View.INVISIBLE);
         mCreateMonth.setVisibility(View.INVISIBLE);
         mCreateDay.setVisibility(View.INVISIBLE);
+        close.setVisibility(View.INVISIBLE);
     }
     public void onClickDelete(View V) {
         mAssignemnt.setVisibility(View.INVISIBLE);
