@@ -83,4 +83,7 @@ public class MainActivity extends AppCompatActivity {
         mCreateMonth.setVisibility(View.INVISIBLE);
         mCreateDay.setVisibility(View.INVISIBLE);
     }
+    public void onClickDelete(View V) {
+        mAssignemnt.setVisibility(View.INVISIBLE);
+    }
 }
